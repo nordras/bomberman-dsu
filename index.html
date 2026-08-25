@@ -1,0 +1,21 @@
+<meta charset="utf-8" />
+<title>Bomberman DSU</title>
+<link rel="stylesheet" href="/style.css" />
+<div id="app">
+  <h1>Bomberman <span>· Disjoint Set Union</span></h1>
+  <div id="stage">
+    <div id="left">
+      <div id="game"></div>
+      <div class="bar">
+        <p class="help">
+          <b>Setas</b> mover · <b>Espaço</b> bomba · <b>C</b> componentes · <b>R</b> novo mapa
+        </p>
+        <button id="mute" type="button" aria-pressed="false" title="ligar/desligar som (M)">
+          <span class="ico">🔊</span><span class="txt">Som</span>
+        </button>
+      </div>
+    </div>
+    <aside id="viz"></aside>
+  </div>
+</div>
+<script type="module" src="/src/main.js"></script>
